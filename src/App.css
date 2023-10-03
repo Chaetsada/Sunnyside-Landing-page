@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+:root{
+    --ff-base-100:'Barlow', sans-serif;
+    --ff-base-200:'Fraunces', serif;;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    font-family: var(--ff-base-100);
+}
+nav ul li:last-child{
+    font-family: var(--ff-base-200);
+}
+main :where(h3,a){
+    font-family: var(--ff-base-200);
+}

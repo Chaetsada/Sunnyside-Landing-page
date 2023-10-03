@@ -1,0 +1,9 @@
+#triangle{
+    position: absolute;
+    top:75px;
+    right: 28px;
+    width: 0;
+	height: 0;
+	border-left: 30px solid transparent;	
+	border-bottom: 30px solid #ffff;
+}

@@ -1,0 +1,36 @@
+@import '../App.css';
+#images-1{
+    background:url(../assets/desktop/image-transform.jpg) center no-repeat;
+    background-size: cover;
+}
+#images-2{
+    background:url(../assets/desktop/image-stand-out.jpg) center no-repeat;
+    background-size: cover;
+}
+#images-3{
+    background:url(../assets/desktop/image-graphic-design.jpg) center no-repeat;
+    background-size: cover;
+}
+#images-4{
+    background:url(../assets/desktop/image-photography.jpg) center no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width:499px){
+    #images-1{
+        background:url(../assets/mobile/image-transform.jpg) center no-repeat;
+        background-size: cover;
+    }
+    #images-2{
+        background:url(../assets/mobile/image-stand-out.jpg) center no-repeat;
+        background-size: cover;
+    }
+    #images-3{
+        background:url(../assets/mobile/image-graphic-design.jpg) center no-repeat;
+        background-size: cover;
+    }
+    #images-4{
+        background:url(../assets/mobile/image-photography.jpg) center no-repeat;
+        background-size: cover;
+    }
+}
